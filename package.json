@@ -1,0 +1,31 @@
+{
+  "name": "adventure-builder",
+  "version": "1.0.0",
+  "description": "A tool to help Dungeons and Dragons players generate adventures.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aroseman/Adventure-Builder.git"
+  },
+  "keywords": [
+    "Dungeons",
+    "and",
+    "Dragons",
+    "Adventure",
+    "Dungeons",
+    "DnD"
+  ],
+  "author": "Andrew Roseman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aroseman/Adventure-Builder/issues"
+  },
+  "homepage": "https://github.com/aroseman/Adventure-Builder#readme"
+}
