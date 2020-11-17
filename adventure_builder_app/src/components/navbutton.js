@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class navbutton extends Component {
+class Navbutton extends Component {
     constructor() {
         super();
 
@@ -17,4 +17,4 @@ class navbutton extends Component {
     }
 }
 
-export default navbutton;
+export default Navbutton;
