@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+header {
+  background-color: #362C47;
+  color:white;
+  margin-top: 0px;
+  height: 75px;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 2%;
+}
+
+.nav-button {
+  text-decoration: none;
+}
+.nav-button > div:hover {
+  background-color: #A99AC1;
+}
+.nav-button > div {
+  background-color: #574672;
+  height: 70px;
+  width: 220px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: .5%;
+  color:white;
 }
