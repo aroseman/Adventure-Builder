@@ -4,6 +4,7 @@
   "description": "A tool to help Dungeons and Dragons players generate adventures.",
   "main": "app.js",
   "dependencies": {
+    "draft-js": "^0.11.7",
     "express": "^4.17.1"
   },
   "devDependencies": {

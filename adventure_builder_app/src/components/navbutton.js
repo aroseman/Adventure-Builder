@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
 class Navbutton extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
-            buttonLabel: ""
+            buttonLabel: "weenie"
         }
     }
     render() {
         return (
             <a href="#" class="nav-button">
-                <div><p>Penis</p></div>
+                <div><p>{this.props.buttonText}</p></div>
             </a>
         )
     }
