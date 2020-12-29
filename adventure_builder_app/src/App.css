@@ -55,4 +55,10 @@ header {
 .die-btn {
   background-color: #fff;
   border: none;
+  background: url(d20.png) no-repeat;
+  width: 55px;
+  height: 66px;
+}
+.dice-roll > span {
+  display: block;
 }

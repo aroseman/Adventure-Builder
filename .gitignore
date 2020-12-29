@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Settings file for App.
+/adventure_builder_app/settings.json

@@ -13,7 +13,7 @@ class PlotForm extends Component {
             <form>
                 <div class="text-field edit-plot-name">
                     <label for="plot-name">Plot Name</label>
-                    <input type="text" name="plot-name" value=""/>
+                    <input type="text" id="plot-name" name="plot-name"/>
                 </div>
                 <div class="checklist edit-plot-locations">
                     <label for="plot-locations">Plot Locations</label>
@@ -26,10 +26,13 @@ class PlotForm extends Component {
                         <label for="town">Town</label><br/>
                     </div>
                 </div>
-                <input name="roll-plot" type="button" class="die-btn" value=""/>
+                <div class="dice-roll">
+                    <span>Roll Plot</span>
+                    <input name="roll-plot" type="button" class="die-btn" value=""/>
+                </div>
             </form>
         )
     }
 }
 
-export default PlotForm;
+export default PlotForm;    
