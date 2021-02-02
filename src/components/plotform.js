@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-let mongo = require('../crud.js');
-
 class PlotForm extends Component {
     constructor(props) {
         super(props);
@@ -14,7 +12,10 @@ class PlotForm extends Component {
         this.handlePlotNameChange = this.handlePlotNameChange.bind(this);
     }
     handleClick(e) {
-        mongo.ReadDocument("12")
+        fetch('http://localhost:4000/get-plots')
+            .then(response => { return response.json()})
+            .then(data => {this.setState({ plotName: data[0].name})})
+        console.log(this.state.plotName)
     }
     handlePlotNameChange(e) {
         this.setState({plotName: e.target.value});
