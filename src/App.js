@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header><h1>Adventure Builder</h1></header>
-      <div class="navigation">
-        <div class="nav">
+      <div className="navigation">
+        <div className="nav">
           <ul>
             <Navbutton buttonText="Adventures"/>
             <Navbutton buttonText="Plots"/>
@@ -16,7 +16,7 @@ function App() {
           </ul>
           </div>
         </div>
-        <div class="viewport">
+        <div className="viewport">
             <PlotForm></PlotForm>
           </div>
     </div> 

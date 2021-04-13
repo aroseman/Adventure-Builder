@@ -10,7 +10,7 @@ class Navbutton extends Component {
     }
     render() {
         return (
-            <a href="#" class="nav-button">
+            <a href="#" className="nav-button">
                 <div><p>{this.props.buttonText}</p></div>
             </a>
         )
